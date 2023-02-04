@@ -1,0 +1,16 @@
+a=input ("enter the sentences:")
+m=input ("enter the sentences:")
+r=input ("enter the sentences:")
+i=input ("enter the sentences:")
+c=len(a)
+e=len(m)
+g=len(r)
+j=len(i)
+if c>e and c>g and c>j:
+    print (a, "has", c, "no of words and that is the maximum ")
+elif e>c and e>g and e>j:
+    print (m, "has",e, "no of words and that is the maximum")
+elif g>c and g>e and g>j:
+    print (r, "has", g, "no of words and that is the maximum")
+elif j>c and j>e and j>g:
+    print (i, "has", j, "no of words and that is the maximum")

@@ -1,0 +1,10 @@
+def reverse(s):
+    str=""
+    for i in s:
+        str=i+str
+    return str
+s="l23456" #sell
+print("the original string is :",end="")
+print(s)
+print("the reversed string(with loops) is :",end="")
+print(reverse(s))
